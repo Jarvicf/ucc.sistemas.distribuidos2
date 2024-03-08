@@ -4,6 +4,7 @@ using namespace std;
 int main (void)
 {
     float IMC, altura_en_m, peso_en_kg;
+	
     cout << "Ingresa el valor de altura en m: ";
     cin >> altura_en_m;
     cin.get();
@@ -19,7 +20,7 @@ int main (void)
         cout << "Bajo peso." << endl;
     if(IMC>=18&&IMC<25)
         cout << "Peso normal (saludable)." << endl;
-    if(IMC>=5&&IMC<30)
+    if(IMC>=25&&IMC<30)
         cout << "Sobrepeso (obesidad de grado I)." << endl;
     if(IMC>=30&&IMC<35)
         cout << "Sobrepeso cr\242nico (obesidad de grado II)." << endl;
